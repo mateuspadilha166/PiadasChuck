@@ -1,0 +1,36 @@
+.container{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20vh;
+  background-color: aqua;
+  padding: 15vh;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  border-radius: 20px;
+}
+.joke{
+  font-family: Courier New, monospace;
+  color: blueviolet;
+  font-size: 20px;
+}
+.titulo{
+  font-family: Courier New, monospace ;
+  font-size: 50px;
+}
+.botao{
+  padding: 20px;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  background-color: blueviolet;
+  color: aquamarine;
+  transition: transform 1.5s ease;
+  box-shadow: none;
+  box-sizing: none;
+}
+.botao:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  transform: scale(1.5)
+}
